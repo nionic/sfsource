@@ -1,0 +1,76 @@
+/*sfsource main css
+13-2-2018*/
+
+body {
+    margin: 0px;
+	font-family: sans-serif;
+}
+body a{
+	text-decoration:none;
+	color:#0575ce;
+}
+body a:hover{
+	color:#01457b;
+}
+nav {
+    background: gray;
+    padding: 1.3rem;
+	text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+.logo {
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+}
+ul.topmenu {
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 2.5em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+li.nobullet {
+    list-style-type: none;
+    display: -webkit-inline-box;
+    margin: 10px;
+    padding: 5px;
+}
+#main-wrapper {
+    max-width: 1010px;
+    margin: 0px auto;
+    padding: 0px 15px;
+	color: #424242;
+}
+header {
+    margin: 2em 0px 3.5em 0em;
+    border-bottom: #bebebe85 solid 1px;
+}
+.home-content {
+    max-width: 176px;
+    display: -webkit-inline-box;
+    margin: 10px;
+    border: 1px #8080806e solid;
+}
+.card-img {
+    max-height: 160px;
+}
+.home-post img {
+    width: 100%;
+}
+.home-title-post {
+    max-width: 145px;
+    margin: auto;
+}
+.home-title-post h2 {
+    font-size: 1rem;
+}
